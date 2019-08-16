@@ -190,6 +190,15 @@ p {
 .nav-container nav a {
   text-decoration: none;
   color: #5E6164;
+  animation: pulse 4s infinite;
+}
+@keyframes pulse {
+  0% {
+    color: #5E6164;
+  }
+  100% {
+    color: #c37d59;
+  }
 }
 footer {
   color: #22283B;

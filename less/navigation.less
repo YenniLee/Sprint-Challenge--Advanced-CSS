@@ -24,6 +24,18 @@
         a{
             text-decoration: none;
             color: @shuttle-gray;
+            
+            animation: pulse 4s infinite;
         }
+
+        @keyframes pulse{
+            0%{
+                color: @shuttle-gray;
+            }
+            100% {
+                color: #c37d59;
+            }
+        }
+
     }
 }   
