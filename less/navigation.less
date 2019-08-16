@@ -8,6 +8,7 @@
     padding-top: 2em;
     border: 1px solid @sea-shell;
 
+
     nav{
         display: flex;
         justify-content: space-between;
@@ -15,6 +16,11 @@
         margin-top: .5em;
         width: 50%;
         padding: .5em 0;
+
+        @media @phone{
+            border: 1px solid plum;
+            width: 75%;
+        }
 
         a{
             text-decoration: none;
